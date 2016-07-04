@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+body {
+
+background: linear-gradient(270deg, #074e74, #08223d, #11abc0, #009a90, #dd2770, #e12e3c);
+background-size: 1200% 1200%;
+
+-webkit-animation: AnimationName 21s ease infinite;
+-moz-animation: AnimationName 21s ease infinite;
+animation: AnimationName 21s ease infinite;
+}
+
+h1 { font-size:12.5em;font-weight:700;}
+h2 { font-size:10.5em;font-weight:400; color:#ffffff}
+
+.bglogo {
+	margin-top: 150px;
+}
+.marg2 {
+	margin-top: 100px;
+}
+
+.texto {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21%;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+.link_email:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+.link_email:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+.link_email:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.link_email:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+
+.bglogo {
+	margin-top: 100px;
+}
+.marg2 {
+	margin-top: 50px;
+}
+
+h1 { font-size:8.5em;font-weight:700;}
+h2 { font-size:6.5em;font-weight:400; color:#ffffff}
+
+}
